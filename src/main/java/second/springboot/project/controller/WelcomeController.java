@@ -1,4 +1,4 @@
-package second.springboot.project;
+package second.springboot.project.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -21,6 +21,6 @@ public class WelcomeController {
 @Component
 class WelcomeService{
 	public String retrieveWelcomeMessage() {
-		return "Good Morning!";
+		return "Good Morning updated!";
 	}
 }
